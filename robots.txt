@@ -1,0 +1,27 @@
+User-agent: *
+Allow: /
+
+# AI crawlers — full access
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# AI Knowledge file
+# https://llmstxt.org
+Llms: /llms.txt
+
+Sitemap: https://beauty-nova.ru/sitemap.xml

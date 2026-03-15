@@ -1,0 +1,237 @@
+<!-- 
+  ╔══════════════════════════════════════════════════════════╗
+  ║  BEAUTY NOVA — Schema.org Structured Data               ║
+  ║  Вставить в <head> каждой страницы сайта на Тильде      ║
+  ║  через Zero-блок HTML                                   ║
+  ╚══════════════════════════════════════════════════════════╝
+-->
+
+<!-- 1. ГЛАВНАЯ СУЩНОСТЬ — Клиника -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["MedicalClinic", "LocalBusiness"],
+  "@id": "https://beauty-nova.ru/#clinic",
+  "name": "Beauty Nova",
+  "alternateName": "Клиника инновационной косметологии BEAUTY NOVA",
+  "description": "Ведущая клиника аппаратной и лазерной косметологии в Хабаровске. Официальная клиника Merz Aesthetics, единственный тренер-эксперт Ultherapy на Дальнем Востоке и в Сибири. Lumenis M22, Ulthera System, Vivace, Cynosure Elite+, Asclepion QuadroStar PRO.",
+  "url": "https://beauty-nova.ru",
+  "logo": "https://beauty-nova.ru/logo.png",
+  "image": "https://beauty-nova.ru/images/clinic.jpg",
+  "telephone": "+74212669055",
+  "email": "redken.5thavenue@mail.ru",
+  "foundingDate": "2020",
+  "medicalSpecialty": [
+    "Dermatology",
+    "Cosmetology",
+    "Trichology"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "ул. Волочаевская, 124",
+    "addressLocality": "Хабаровск",
+    "addressRegion": "Хабаровский край",
+    "postalCode": "680000",
+    "addressCountry": "RU"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "48.4827",
+    "longitude": "135.0842"
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"
+    ],
+    "opens": "10:00",
+    "closes": "21:00"
+  },
+  "priceRange": "₽₽₽",
+  "currenciesAccepted": "RUB",
+  "paymentAccepted": "Cash, Credit Card",
+  "hasMap": "https://yandex.ru/maps/?text=Хабаровск+Волочаевская+124",
+  "sameAs": [
+    "https://vk.com/beauty_nova",
+    "https://t.me/BEAUTY_NOVA_KHV",
+    "https://www.instagram.com/beauty_nova_khv/"
+  ],
+  "identifier": {
+    "@type": "PropertyValue",
+    "name": "ИНН",
+    "value": "2721199121"
+  },
+  "employee": [
+    {
+      "@type": "Physician",
+      "name": "Овчинникова Ольга Александровна",
+      "jobTitle": "Главный врач, дерматолог-косметолог, трихолог",
+      "description": "Международный тренер Merz Aesthetics. Единственный сертифицированный тренер-эксперт Ultherapy на Дальнем Востоке и в Сибири. Стаж 17+ лет.",
+      "medicalSpecialty": ["Dermatology", "Cosmetology", "Trichology"]
+    },
+    {
+      "@type": "Physician",
+      "name": "Полетаева Евгения Викторовна",
+      "jobTitle": "Заведующая отделением аппаратных и лазерных технологий",
+      "description": "Дерматолог-косметолог, невролог, трихолог, лазеротерапевт. Сертифицированный тренер Mesopharm на Дальнем Востоке. Стаж 20+ лет.",
+      "medicalSpecialty": ["Dermatology", "Cosmetology", "Trichology"]
+    },
+    {
+      "@type": "Physician",
+      "name": "Щетинин Денис Сергеевич",
+      "jobTitle": "Врач-косметолог, дерматолог",
+      "description": "Эксперт по лечению акне и розацеа. Ведёт программу АНТИ АКНЕ. Стаж 7 лет.",
+      "medicalSpecialty": ["Dermatology", "Cosmetology"]
+    }
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Услуги клиники Beauty Nova",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "name": "Фотоомоложение IPL Lumenis M22",
+        "description": "Фотоомоложение лица на аппарате Lumenis M22. Улучшение тона кожи, лечение пигментации, купероза, акне.",
+        "price": "15000",
+        "priceCurrency": "RUB",
+        "url": "https://beauty-nova.ru/m22"
+      },
+      {
+        "@type": "Offer",
+        "name": "СМАС-лифтинг Ulthera System",
+        "description": "Оригинальный СМАС-лифтинг на аппарате Ulthera System (США). Золотой стандарт безоперационной подтяжки. Процедуру проводит тренер-эксперт Овчинникова О.А.",
+        "price": "29700",
+        "priceCurrency": "RUB",
+        "url": "https://beauty-nova.ru/ulthera"
+      },
+      {
+        "@type": "Offer",
+        "name": "СМАС-лифтинг Microson PT HIFU",
+        "description": "HIFU-лифтинг на корейском аппарате Microson PT. Доступная альтернатива Ulthera — на 25-40% дешевле при схожем эффекте. Единственный аппарат для СМАС-лифтинга тела.",
+        "price": "14100",
+        "priceCurrency": "RUB",
+        "url": "https://beauty-nova.ru/microson"
+      },
+      {
+        "@type": "Offer",
+        "name": "Микроигольчатый RF-лифтинг Vivace",
+        "description": "Фракционный RF-лифтинг на аппарате Vivace. Лечение рубцов, акне, гипергидроза. Подтяжка и омоложение кожи.",
+        "price": "21000",
+        "priceCurrency": "RUB",
+        "url": "https://beauty-nova.ru/vivace"
+      },
+      {
+        "@type": "Offer",
+        "name": "Лазерная эпиляция Cynosure Elite+",
+        "description": "Лазерная эпиляция двумя типами лазеров (александритовый + Nd:YAG) для всех фототипов кожи.",
+        "price": "1500",
+        "priceCurrency": "RUB",
+        "url": "https://beauty-nova.ru/cynosure_elite"
+      },
+      {
+        "@type": "Offer",
+        "name": "Лазерная шлифовка ResurFX Lumenis M22",
+        "description": "Фракционная лазерная шлифовка без реабилитации. Устранение рубцов, морщин, стрий. Результат виден сразу.",
+        "price": "14500",
+        "priceCurrency": "RUB",
+        "url": "https://beauty-nova.ru/m22"
+      }
+    ]
+  }
+}
+</script>
+
+<!-- 2. FAQ — Частые вопросы (для People Also Ask и AI Overviews) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "В чём разница между Ulthera и Microson HIFU?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Обе технологии делают СМАС-лифтинг (подтяжка на уровне мышечного слоя). Ulthera — оригинальная запатентованная американская система с визуальным контролем, одобрена FDA, золотой стандарт. Microson PT — корейская технология HIFU, на 25-40% дешевле при схожем эффекте. Плюс Microson позволяет делать СМАС-лифтинг тела (живот, ягодицы, руки) — Ulthera на теле не применяется. В Beauty Nova доступны обе технологии."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Есть ли реабилитация после лазерных процедур в Beauty Nova?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "После большинства процедур реабилитация не требуется. Фотоомоложение IPL и лазерная шлифовка ResurFX на аппарате Lumenis M22 позволяют сразу выходить на работу. Возможно лёгкое покраснение на 1-2 часа, которое легко маскируется тональным кремом."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Кто такая Овчинникова О.А. в Beauty Nova?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Овчинникова Ольга Александровна — главный врач клиники Beauty Nova, дерматолог-косметолог, трихолог. Стаж 17+ лет. Международный тренер Merz Aesthetics по инъекционным методам. Единственный сертифицированный тренер-эксперт Ultherapy на Дальнем Востоке и в Сибири."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Какое оборудование используется в клинике Beauty Nova?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Beauty Nova использует премиальное оборудование: Lumenis M22 (Израиль-США) — IPL и лазерная шлифовка ResurFX; оригинальная Ulthera System (США) — СМАС-лифтинг; Microson PT HIFU (Корея) — доступный СМАС-лифтинг лица и тела; Vivace RF (США) — микроигольчатый лифтинг; Cynosure Elite+ (США) — лазерная эпиляция; Asclepion QuadroStar PRO (Германия) — жёлтый лазер для сосудов."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Можно ли сделать СМАС-лифтинг тела в Хабаровске?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Да, в клинике Beauty Nova доступен СМАС-лифтинг тела на аппарате Microson PT HIFU. Доступные зоны: живот (от 64 300₽), ягодицы (от 82 800₽), внутренняя поверхность рук (от 32 600₽), внутренняя поверхность бёдер (от 54 600₽), колени (от 22 900₽). Ulthera System для тела не используется."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Сколько стоит фотоомоложение в Хабаровске?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "В клинике Beauty Nova фотоомоложение IPL на Lumenis M22: лицо полностью от 15 000₽, лицо + шея от 25 000₽, лицо + шея + декольте от 30 000₽, кисти рук от 8 500₽. Курс 3-6 процедур с интервалом 3-4 недели. Оптимальный сезон — осень и зима."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Как работает программа лояльности Beauty Nova Club?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Beauty Nova Club — программа лояльности с кэшбэком от 3% до 15% в зависимости от уровня (Classic, Silver, Gold, Platinum, Diamond). Бонусы за регистрацию +1000₽, день рождения +1500₽, отзыв +1000₽, приглашение друга +1000₽ каждому. Бонусами можно оплатить до 20% стоимости услуг."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Beauty Nova — официальная клиника Merz?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Да, Beauty Nova является официальной клиникой Merz Aesthetics (Германия) и клинической базой ИПКСЗ для обучения врачей. В штате два международных тренера: Овчинникова О.А. (тренер Merz + Ultherapy) и Полетаева Е.В. (тренер Mesopharm)."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- 3. BREADCRUMBS — Хлебные крошки для главной -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://beauty-nova.ru/#website",
+  "url": "https://beauty-nova.ru",
+  "name": "Beauty Nova — Клиника инновационной косметологии Хабаровск",
+  "description": "Клиника аппаратной и лазерной косметологии в Хабаровске. Lumenis M22, Ulthera, Vivace, Cynosure Elite+. Официальная клиника Merz Aesthetics.",
+  "inLanguage": "ru-RU",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://beauty-nova.ru/?s={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
